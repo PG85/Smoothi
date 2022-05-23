@@ -1,0 +1,101 @@
+:root {
+  --ion-safe-area-top: 20px;
+  --ion-safe-area-bottom: 22px;
+}
+
+/* Header / tabs */
+
+.smoothiHeader {
+}
+
+.smoothiHeaderToolBar {
+  height: 50px;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* Content */
+
+.itemContainerCard {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.itemContainerItem {
+  --padding-end: 0px;
+  --inner-padding-end: 0px;
+  --inner-padding-bottom: 0;
+  --inner-padding-end: 0;
+  --inner-padding-start: 0;
+  --inner-padding-top: 0;
+}
+
+.itemContainerLogo1 {
+  margin-top: 10px !important;
+}
+
+.itemContainerLogo2 {
+  margin-top: 25px;
+}
+
+.diagramSquare1 {
+  color: #4b3cb3;
+}
+
+.diagramSquare2 {
+  color: #fcc65a;
+}
+
+.diagramSquare3 {
+  color: #ed6943;
+}
+
+.itemContainerInfoItem1,
+.itemContainerInfoItem2 {
+  margin: 0px !important;
+  padding: 0px !important;
+  --background: transparent;
+  padding-bottom: 10px !important;
+}
+
+.infoItemLabel1,
+.infoItemLabel2,
+.infoItemLabel3,
+.infoItemLabel4 {
+  margin: 0px !important;
+  padding: 0px !important;
+  --padding-end: 0px;
+  --inner-padding-end: 0px;
+  --inner-padding-bottom: 0;
+  --inner-padding-end: 0;
+  --inner-padding-start: 0;
+  --inner-padding-top: 0;
+}
+
+.infoItemTextGreen {
+  color: #00aa00;
+}
+
+.infoItemTextRed {
+  color: #ff0000;
+}
+
+.ion-accordion-toggle-icon {
+  display: none !important;
+  height: 0px !important;
+  width: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.cardContent {
+  text-align: center;
+}
+
+.contentHeader {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 14px;
+  margin-top: 10px;
+  font-size: 30px;
+}

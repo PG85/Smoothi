@@ -1,0 +1,63 @@
+/* Header & footer */
+
+.smoothiHeader,
+.smoothiFooter {
+  --background: #4b3cb3;
+  --color: #ffffff;
+}
+
+/* Header */
+
+.smoothiHeaderToolBar {
+  --color: #ffffff;
+  --background: #4b3cb3;
+}
+
+.smoothiHeaderSettingsIcon {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.smoothiHeaderAccountIcon {
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+/* Side-menu */
+
+.sidemenu,
+.sidemenuHeader,
+.sidemenuHeader2,
+.sidemenucontent,
+.sidemenubtn {
+  --background: #4b3cb3;
+  --color: #ffffff;
+}
+
+.sidemenulist {
+  background: #4b3cb3;
+}
+
+/* Footer (tabs) */
+
+.smoothiFooter {
+  padding-bottom: 0px;
+  margin-top: 2px;
+}
+
+.tabBtnBackground {
+  color: #4b3cb3;
+}
+
+.tabBtn {
+  --color: #ffffff;
+  --color-selected: #ef7754;
+}
+
+.sidemenuHeadertitle {
+  font-size: 30px;
+}
+
+.sidemenuHeader2 {
+  font-size: 20px;
+}

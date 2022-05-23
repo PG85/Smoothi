@@ -1,0 +1,7 @@
+{
+  "name": "SmoothI",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
