@@ -2,7 +2,7 @@
 
 .smoothiHeader,
 .smoothiFooter {
-  --background: #4b3cb3;
+  --background: #304afc;
   --color: #ffffff;
 }
 
@@ -10,7 +10,7 @@
 
 .smoothiHeaderToolBar {
   --color: #ffffff;
-  --background: #4b3cb3;
+  --background: #304afc;
 }
 
 .smoothiHeaderSettingsIcon {
@@ -19,6 +19,7 @@
 }
 
 .smoothiHeaderAccountIcon {
+  height: 30px;
   margin-right: 20px;
   margin-top: 5px;
 }
@@ -30,12 +31,43 @@
 .sidemenuHeader2,
 .sidemenucontent,
 .sidemenubtn {
-  --background: #4b3cb3;
-  --color: #ffffff;
+  --background: #ffffff;
+  --color: #304afc;
 }
 
 .sidemenulist {
-  background: #4b3cb3;
+  background: #ffffff;
+}
+
+.smoothiSideMenuAccountIcon {
+  height: 50px;
+  display: inline-block;
+}
+
+.sidemenuHeadertitle {
+  font-size: 20px !important;
+  display: inline-block;
+  color: black;
+}
+
+.sidemenuHeader {
+  text-align: center;
+}
+
+.sideMenuBtnIcon {
+  color: #304afc;
+}
+
+.sidemenubtn2Container {
+  text-align: center;
+  height: 200px;
+}
+
+.sidemenubtn2 {
+  --background: #ffffff;
+  --color: #304afc;
+  border: 1px solid;
+  margin-top: 100px;
 }
 
 /* Footer (tabs) */
@@ -46,7 +78,7 @@
 }
 
 .tabBtnBackground {
-  color: #4b3cb3;
+  color: #304afc;
 }
 
 .tabBtn {
@@ -59,5 +91,5 @@
 }
 
 .sidemenuHeader2 {
-  font-size: 20px;
+  padding-top: 20px;
 }

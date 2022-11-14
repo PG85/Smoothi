@@ -5,25 +5,56 @@
 
 /* Header / tabs */
 
-.smoothiHeader {
-}
-
 .smoothiHeaderToolBar {
   height: 50px;
   margin: 0px !important;
   padding: 0px !important;
 }
 
-.smoothiHeaderContent {
+.smoothiPageHeader {
+  padding-top: 50px;
+}
+
+.smoothiPageHeaderContent {
   height: 36px;
   --offset-bottom: 0px;
-  --offset-top: 0px;
+  --offset-top: 100px;
   --padding-bottom: 0px;
   --padding-end: 0px;
   --padding-start: 0px;
   --padding-top: 0px;
-  margin: 0px !important;
-  padding: 0px !important;
+  --background: #304afc;
+}
+
+.smoothiPageHeaderInfo {
+  height: 50px;
+  text-align: center;
+  --offset-bottom: 0px;
+  --offset-top: 100px;
+  --padding-bottom: 0px;
+  --padding-end: 0px;
+  --padding-start: 0px;
+  --padding-top: 0px;
+  --background: #304afc;
+}
+
+.headerTabInfoLabel {
+  color: #ffffff;
+}
+
+.ytdHeaderIcon {
+  height: 10px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.diagram1Container {
+  width: auto !important;
+  align-items: center;
+  background: #304afc;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  height: 95px;
 }
 
 .walletGoalsTab {
@@ -31,11 +62,11 @@
   height: 100%;
   margin: 0px !important;
   padding: 0px !important;
+  padding-top: 165px !important;
 }
 
 .headerTabBtn {
   color: #ffffff;
-  background: #4b3cb3;
   width: 50%;
   margin: 0px !important;
   padding: 0px !important;
@@ -46,35 +77,58 @@
   padding: 0px !important;
 }
 
-.headerTabBtnLabelRed {
-  color: #ef7754;
+.headerTabBtnLabelSelected h2 {
+  font-weight: bold;
 }
 
 .headerTabBtnLabelWhite {
   color: #ffffff;
 }
 
-/* Content */
-
-.diagram1 {
-  width: auto !important;
-  align-items: center;
-  height: 150px;
-  margin: 30px;
-}
-
-.itemContainerCard {
+.slides1 {
+  width: 100%;
+  height: 100%;
   margin: 0px !important;
   padding: 0px !important;
+  padding-top: 125px !important;
+  padding-bottom: 125px !important;
+}
+
+.slide1 {
+}
+
+.diagram1 {
+}
+
+.contentContainerDivGoals {
+  width: 100%;
+  background: white;
+  margin: 20px;
+  border-radius: 20px;
+  margin-top: -35px;
+}
+
+.diagram5 {
+  display: inline-block;
+  width: 189px;
+  margin-top: 30px;
+}
+
+/* Content */
+
+.itemContainerCard {
 }
 
 .itemContainerItem {
   --padding-end: 0px;
   --inner-padding-end: 0px;
-  --inner-padding-bottom: 0;
+  --inner-padding-bottom: 10;
   --inner-padding-end: 0;
   --inner-padding-start: 0;
   --inner-padding-top: 0;
+  --background: #d3d9fe;
+  border-radius: 10px;
+  margin: 5px 10px !important;
 }
 
 .itemContainerLogo1 {
@@ -82,19 +136,31 @@
 }
 
 .itemContainerLogo2 {
-  margin-top: 25px;
+  margin-top: 25px !important;
 }
 
 .diagramSquare1 {
-  color: #4b3cb3;
+  color: #d666fa;
+  margin-top: 12px !important;
+  margin-right: 10px !important;
+  height: 40px;
+  width: 40px;
 }
 
 .diagramSquare2 {
-  color: #fcc65a;
+  color: #3de7f1;
+  margin-top: 12px !important;
+  margin-right: 10px !important;
+  height: 40px;
+  width: 40px;
 }
 
 .diagramSquare3 {
-  color: #ed6943;
+  color: #945cf9;
+  margin-top: 12px !important;
+  margin-right: 10px !important;
+  height: 40px;
+  width: 40px;
 }
 
 .itemContainerInfoItem1,
@@ -103,6 +169,12 @@
   padding: 0px !important;
   --background: transparent;
   padding-bottom: 10px !important;
+  --padding-end: 0px;
+  --inner-padding-end: 0px;
+  --inner-padding-bottom: 0;
+  --inner-padding-end: 0;
+  --inner-padding-start: 0;
+  --inner-padding-top: 0;
 }
 
 .infoItemLabel1,
@@ -117,6 +189,28 @@
   --inner-padding-end: 0;
   --inner-padding-start: 0;
   --inner-padding-top: 0;
+}
+
+.infoItemLabelGoals1,
+.infoItemLabelGoals2 {
+  margin: 0px !important;
+  margin-right: 15px !important;
+  padding: 0px !important;
+  --padding-end: 0px;
+  --inner-padding-end: 0px;
+  --inner-padding-bottom: 0;
+  --inner-padding-end: 0;
+  --inner-padding-start: 0;
+  --inner-padding-top: 0;
+}
+
+.infoItemLabelGoals1 h2,
+.infoItemLabelGoals2 h2 {
+  font-weight: bold;
+}
+
+.infoItemLabel2 .infoItemText2 {
+  font-weight: normal !important;
 }
 
 .infoItemTextGreen {
